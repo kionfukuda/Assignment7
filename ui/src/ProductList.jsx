@@ -88,7 +88,7 @@ export default class ProductList extends React.Component {
             <Panel.Title>Product Table</Panel.Title>
           </Panel.Heading>
           <Panel.Body>
-            <Panel.Title>Showing {stat} available products</Panel.Title>
+            <Panel.Title>Showing {stat} available products<hr></hr></Panel.Title>
             <ProductTable
               products={products}
               deleteProduct={this.deleteProduct}
